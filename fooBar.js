@@ -1,3 +1,3 @@
 const foo = () => 'bar'
 
-expect(foo).toEqual(bar)
+module.exports =foo
