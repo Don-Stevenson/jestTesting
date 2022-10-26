@@ -1,3 +1,5 @@
-const foo = () => "bar"
+const fooBar = (fooOrBar) => {
+   return (fooOrBar === "foo") ?  "bar" : "foo"
+}
 
-module.exports = foo
+module.exports = fooBar
