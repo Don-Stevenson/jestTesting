@@ -7,6 +7,6 @@ describe("FooBar tests", () => {
   test("expect bar to when passed in foo", () =>
     expect(fooBar("bar")).toBe("foo"))
 
-  test("expect 'undefined' when passed in an empty string", () =>
+  test("expect 'undefined' response when passed in an empty string", () =>
     expect(fooBar("")).toBe(undefined))
 })
