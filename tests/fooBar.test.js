@@ -9,4 +9,7 @@ describe("FooBar tests", () => {
 
   test("expect 'undefined' response when passed in an empty string", () =>
     expect(fooBar("")).toBe(undefined))
+
+  test("expect 'undefined' when passed in a word other than 'foo' or 'bar'",()=>
+    expect(fooBar("that")).toBe(undefined)) 
 })
