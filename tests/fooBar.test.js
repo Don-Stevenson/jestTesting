@@ -15,4 +15,7 @@ describe("FooBar tests", () => {
 
   test("expect 'undefined' to be returned when passed in a number", () =>
     expect(fooBar(5)).toBe(undefined))
+
+    test("expect 'undefined' to be returned when passed in 'Bar'", () =>
+    expect(fooBar("Bar")).toBe(undefined))
 })
