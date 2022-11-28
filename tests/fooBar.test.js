@@ -21,4 +21,10 @@ describe("FooBar tests", () => {
 
   test("expect 'undefined' to be returned when passed in 'Foo'", () =>
     expect(fooBar("Foo")).toBe(undefined))
+
+  test("expect 'undefined' to be returned when passed in 'Nan'", () =>
+    expect(fooBar(NaN)).toBe(undefined))
+
+  test("expect 'undefined' to be returned when passed in 'false'", () =>
+    expect(fooBar(false)).toBe(undefined))
 })
